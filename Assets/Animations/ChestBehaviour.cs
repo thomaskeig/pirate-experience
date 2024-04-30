@@ -24,7 +24,7 @@ public class ChestBehaviour : MonoBehaviour
         if (other.tag == "Player")
         {
             // Play animation
-            animator.SetTrigger("Open_Chest");
+            animator.SetTrigger("OpenChest");
         }
     }
 }
